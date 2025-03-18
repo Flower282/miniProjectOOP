@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane
+        prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ff0000;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.loginui2.Application">
+    <children>
+        <Label layoutX="205.0" layoutY="152.0" text="Hello" textFill="WHITE">
+            <font>
+                <Font name="Microsoft Sans Serif" size="83.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
