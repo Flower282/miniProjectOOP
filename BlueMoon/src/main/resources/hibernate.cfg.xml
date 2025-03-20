@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">
+            jdbc:postgresql://ep-yellow-darkness-a5p8y6yl-pooler.us-east-2.aws.neon.tech:5432/user_db?currentSchema=schema_duong
+        </property>
+        <property name="hibernate.connection.username">user_db_owner</property>
+        <property name="hibernate.connection.password">npg_Yv9dn2ShWPtB</property>
+
+        <!-- Hibernate properties -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Entity mapping -->
+        <mapping class="org.example.bluemoon.model.entity.User"/>
+        <mapping class="org.example.bluemoon.model.entity.Information"/>
+    </session-factory>
+</hibernate-configuration>

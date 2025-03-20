@@ -1,0 +1,145 @@
+/* Main colors */
+.root {
+    -fx-background-color: #89D0F0;
+    -fx-font-family: "System";
+}
+
+/* Side menu styling */
+.side-pane {
+    -fx-background-color: #b3d6ff;
+}
+
+/* Button styles */
+/* Button styles */
+.button {
+    -fx-background-color: linear-gradient(to bottom, deepskyblue, skyblue);
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 100px;
+    -fx-border-width: 30px;
+    -fx-cursor: hand;
+}
+.button-login {
+    -fx-background-color: linear-gradient(to bottom, deepskyblue, skyblue);
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 100px;
+    -fx-border-width: 30px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+.button:pressed {
+    -fx-background-color: #d0d0d0;
+}
+
+/* Active/selected button */
+.button.active {
+    -fx-background-color: #489bfa;
+    -fx-text-fill: white;
+}
+
+/* Logout button specific style */
+#logoutButton {
+    -fx-background-color: linear-gradient(to bottom, #ff0000, #cc0000);
+    -fx-text-fill: white;
+}
+
+#logoutButton:hover {
+    -fx-background-color: #ff0000;
+}
+
+/* TableView styling */
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: #489bfa;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: #f0f0f0;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f8f9fa;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #b3d6ff;
+    -fx-text-fill: black;
+}
+
+/* Image styling */
+.image-view {
+    -fx-cursor: hand;
+}
+
+/* Pane containing logo */
+.logo-pane {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+.pane-gradient {
+    -fx-background-radius: 30px;
+    -fx-background-color: linear-gradient(to bottom,  #f5f7f7, #87CEFA);
+}
+
+.anchor-pane {
+    -fx-background-color: rgba(255, 250, 250, 0.9); /* Màu tím nhạt hơn với độ trong suốt cao hơn */
+    -fx-background-radius: 30px; /* Bo góc 30px */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 5); /* Hiệu ứng nổi khối */
+}
+
+.anchor-pane-behind {
+    -fx-background-color: rgba(255, 255, 255, 0.01); /* Màu tím nhạt hơn với độ trong suốt cao hơn */
+    -fx-background-radius: 30px; /* Bo góc 30px */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 5); /* Hiệu ứng nổi khối */
+}
+
+.login-pane {
+    -fx-background-color: rgba(137, 208, 240, 0.2); /* Màu nền xanh trong suốt */
+    -fx-background-radius: 30px; /* Bo góc */
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0.5, 0, 0); /* Đổ bóng nhẹ */
+    -fx-border-radius: 15px;
+}
+
+.field {
+    -fx-background-color: #FFFFFF; /* Màu nền trắng */
+    -fx-background-radius: 30px; /* Bo góc 30px */
+    -fx-border-radius: 30px;
+    -fx-padding: 10px;
+    -fx-pref-width: 423px; /* Chiều rộng 423px */
+    -fx-pref-height: 75px; /* Chiều cao 75px */
+}
+
+.label-check {
+    -fx-pref-width: 423px; /* Chiều rộng 423px */
+    -fx-font-size: 18px; /* Cỡ chữ 18px */
+    -fx-font-style: italic; /* Chữ nghiêng */
+    -fx-text-fill: red; /* Màu chữ đỏ */
+}
+.label-signup {
+    -fx-font-size: 25px; /* Cỡ chữ 18px */
+}
+.label-create-account {
+    -fx-font-size: 25px; /* Cỡ chữ 18px */
+    -fx-text-fill: deepskyblue; /* Màu chữ xanh */
+    -fx-font-style: bold; /* Chữ đậm */
+}
